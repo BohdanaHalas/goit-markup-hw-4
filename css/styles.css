@@ -156,6 +156,7 @@ img {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .slogan {
@@ -226,6 +227,9 @@ img {
 }
 
 .icon-priorities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     width: 264px;
