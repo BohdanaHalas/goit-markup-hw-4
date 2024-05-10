@@ -107,7 +107,7 @@ img {
         position: relative;
 }
 
-.menu-link {
+.menu-link, .menu-link-first {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -115,7 +115,6 @@ img {
     color: #2e2f42;
     padding: 24px 0;
     position: relative;
-    
 }
 
 .menu-link:hover,
@@ -128,7 +127,7 @@ img {
     color: #404bbf;
 }
 
-.menu-link:hover::after {
+.menu-link-first:hover::after {
     content: '';
     width: 100%;
     position: absolute;
