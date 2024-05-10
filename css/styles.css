@@ -365,7 +365,30 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    
+}
+
+.first-icons-team-list {
+    width: 40px;
+    height: 40px;
+
+}
+
+.fitl-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+
+.fitl-link:hover, .fitl-link:focus {
+    background-color: #404bbf;
+}
+
+.soc-med-team {
+    fill: #f4f4fd
 }
 
 /* == SECTION 4 == */
