@@ -388,7 +388,7 @@ img {
 }
 
 .soc-med-team {
-git commit -m     fill: #f4f4fd
+    fill: #f4f4fd
 }
 
 /* == SECTION 4 == */
@@ -448,6 +448,15 @@ git commit -m     fill: #f4f4fd
     padding: 100px 0;
 }
 
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-p {
+    margin-right: 120px;
+}
+
 .logo-footer {
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -476,4 +485,18 @@ git commit -m     fill: #f4f4fd
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px
+}
+
+.soc-med-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.sm-icon-footer {
+    display: flex;
+    gap: 16px;
 }
