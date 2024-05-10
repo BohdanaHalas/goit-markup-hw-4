@@ -98,19 +98,29 @@ img {
     gap: 40px;
 }
 
-.menu-link {
+.menu-item {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        position: relative;
+}
+/* .menu-link, .menu-link-first {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    color: #404bbf;
     padding: 24px 0;
     position: relative;
     
 }
 
-.menu-link:hover, 
+*/
+
+.menu-link:hover,
+.menu-link-first:hover, 
 .contacts-link:hover {
     color: #404bbf;
 }
@@ -119,7 +129,12 @@ img {
 .contacts-link:focus {
     color: #404bbf;
 }
-.menu-limks::after {
+
+.menu-link-first {
+    color: #404bbf;
+}
+
+.menu-link-first::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -156,6 +171,7 @@ img {
     color: #434455;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* == SECTION 1 == */
@@ -164,7 +180,7 @@ img {
     height: 600px;
     display: flex;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
