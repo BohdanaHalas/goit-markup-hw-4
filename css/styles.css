@@ -117,6 +117,10 @@ img {
     position: relative;
 }
 
+.menu-link-first {
+    color: #404bbf
+}
+
 .menu-link:hover,
 .contacts-link:hover {
     color: #404bbf;
@@ -127,7 +131,7 @@ img {
     color: #404bbf;
 }
 
-.menu-link-first:hover::after {
+.menu-link:hover::after, .menu-link-first:hover::after {
     content: '';
     width: 100%;
     position: absolute;
