@@ -137,7 +137,7 @@ img {
     color: #404bbf;
 }
 
-.menu-link-first:hover::after {
+.menu-link-first::after {
     content: '';
     width: 100%;
     position: absolute;
