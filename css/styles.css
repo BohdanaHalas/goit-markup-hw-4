@@ -494,11 +494,14 @@ img {
 .container-footer {
     display: flex;
     align-items: baseline;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
 }
 
 .logo-p {
     width: 1158px;
-    margin-left: 0 auto;
 }
 
 .logo-footer {
@@ -529,6 +532,10 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px
+}
+
+.footer-second {
+    margin-right: 120px;
 }
 
 .soc-med-footer {
